@@ -11,7 +11,7 @@ Figure produce with inital velcoty set to 4500 m/s tangent to Earth's centre.
 Figure produce with inital velcoty set to 3650 m/s tangent to Earth's centre. The inital veclocity is calculated by 
 
 $$
-v = \left(1-\frac{GM}{r}\right)
+v = \left(\sqrt{\frac{GM}{r}}\right)
 $$
 
 v = sqrt(GM/r) which is the veclocity needed for a circular orbit.
