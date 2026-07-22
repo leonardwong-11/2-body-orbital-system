@@ -4,3 +4,9 @@ Inital condition of at 3x10^7 meters above Earths centre.
 
 ![Ellipse print](Ellipse.png)
 Figure produce with inital velcoty set to 4500 m/s tangent to Earth's centre.
+
+![Ellipse print](Circular_orbit.png)
+Figure produce with inital velcoty set to 3650 m/s tangent to Earth's centre. The innital veclocity is calculated by v = sqrt(GM/r) which is the veclocity needed for a circular orbit.
+
+![Ellipse print](Escape.png)
+Figure produce with inital velcoty set to 5670 m/s tangent to Earth's centre. The innital veclocity is calculated by v = sqrt(2GM/r) which is the veclocity needed to escape Earth's gravitational field.
