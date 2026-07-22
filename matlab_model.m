@@ -6,11 +6,10 @@ mass2 = 7.348e6;       % Satellite mass (kg)
 %% Load and run the Simulink model
 mdl = 'simulink_model';
 load_system(mdl);
-set_param(mdl,'StopTime','20000')
-get_param(mdl,'StopTime')
+set_param(mdl,'StopTime','55000')
 
 simOut = sim(mdl);
-simOut.position.signals.values(1:5,:)
+simOut.position.signals.values(1:5,:);
 x = simOut.position.signals.values(:,1);
 y = simOut.position.signals.values(:,2);
 
